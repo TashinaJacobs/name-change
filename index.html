@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="name">
+      <h1>SEBASTIAN</h1>
+    </div>
+      <button type="button" class="btn btn-outline-primary" id="target1">Target</button>
+  </div>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js">
+  </script>
+  <script type="">
+  $(document).ready(function(){
+    $( "#target1" ).click(function() {
+      $( '.name' ).fadeOut(3000, function(){
+        ///Do stuff here after hide green happens
+        $('.name').fadeIn();
+      });
+        });
+          });
+
+        // $(document).ready(function(){
+        //   $( "#target1" ).click(function() {
+        //     $( '.blue' ).hide(3000, function(){
+        //       alert('Helloooo Nurse');
+        //         $('.blue').show(2000).hide(2000).show(2000)
+        //     });
+        //   });
+
+  </script>
+</body>
+</html>
